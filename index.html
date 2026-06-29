@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Excash Registration</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+margin:0;
+font-family:Poppins,sans-serif;
+background:linear-gradient(135deg,#111827,#4f46e5,#00c853);
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+}
+
+.form-box{
+background:#161b22;
+width:420px;
+padding:35px;
+border-radius:20px;
+box-shadow:0 0 20px rgba(0,255,153,.2);
+color:white;
+}
+
+h1{
+text-align:center;
+color:#00ff99;
+margin-bottom:20px;
+}
+
+input,select{
+width:100%;
+padding:14px;
+margin:10px 0;
+border:none;
+border-radius:10px;
+background:#222;
+color:white;
+}
+
+button{
+width:100%;
+padding:15px;
+margin-top:15px;
+background:#00ff99;
+border:none;
+border-radius:10px;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+}
+
+button:hover{
+opacity:.9;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="form-box">
+
+<h1>EXCASH REGISTRATION</h1>
+
+<form action="success.html">
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="text" placeholder="Username" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<select required>
+<option value="">Select Country</option>
+<option>Nigeria</option>
+<option>Ghana</option>
+<option>Kenya</option>
+<option>South Africa</option>
+<option>Other</option>
+</select>
+
+<select required>
+<option value="">Choose Membership</option>
+<option>Level 1</option>
+<option>Level 2</option>
+<option>Level 3</option>
+<option>Level 4</option>
+</select>
+
+<input type="password" placeholder="Password" required>
+
+<input type="password" placeholder="Confirm Password" required>
+
+<input type="text" placeholder="Referral Code (Optional)">
+
+<label>
+<input type="checkbox" required>
+I agree to the Terms & Conditions
+</label>
+
+<button type="submit">Create Account</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
